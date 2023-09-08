@@ -5,7 +5,7 @@ import icon from '../../Img/Home/icon.svg'
 import { Link, useNavigate } from 'react-router-dom';
 
 import panda from '../../Img/panda.png'
-import bookMark from '../../Img/bookmark.jpg'
+import shelly from '../../Img/shelly.png'
 
 const Work = () => {
     const [loader, setLoader] = useState(true);
@@ -165,7 +165,7 @@ const Work = () => {
                   </div>
               </motion.div>
               </Link>
-              <Link to={'https://bookmark-page-pj.netlify.app/'} target="_blank">
+              <Link to={'https://shelly-school.vercel.app/'} target="_blank">
               <motion.div 
                 initial={{ scale: 0.7 }}
                 whileInView={{ scale: 1 }}
@@ -175,11 +175,11 @@ const Work = () => {
                   delay: loader ? 0.5 : 0,
                 }}
                 className=' bg-card-bg box p-4 pb-6.5 rounded-4xl cursor-pointer'>
-                  <img className='rounded-4xl mb-4' src={bookMark} alt="" />
+                  <img className='rounded-4xl mb-4' src={shelly} alt="" />
                   <div className=' flex items-center justify-between '>
                     <div className=''>
                       <p className='  text-xs uppercase mb-0 text-card-para opacity-50'>Web designing</p>
-                      <h6 className='  text-card-para font-medium text-lg'>Bookmark</h6>
+                      <h6 className='  text-card-para font-medium text-lg'>Shelly</h6>
                     </div>
                     <span href='https://fylo-page-pj.netlify.app/' className='transition duration-300 text-card-para linkicon opacity-20'>
                       <img src={icon} alt="" className=''/>
