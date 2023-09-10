@@ -312,7 +312,7 @@ const Home = () => {
           >
             <div className="basis-full uxsm:basis-[44.5%] xsm:basis-1/3 bg-card-bg  py-10 relative after:absolute after:content-[''] after:top-0 after:left-0 after:w-full after:h-full after:bg-card-background after:rounded-3xl after:opacity-[.1]">
               <h1 className="text-white text-4xl font-medium text-center ">
-                02
+                06
               </h1>
               <p className="uppercase text-[.8rem] text-card-para font-normal  tracking-normal  mx-auto text-center opacity-50 w-1/2 mt-4">
                 months workshop experience
@@ -328,7 +328,7 @@ const Home = () => {
             </div>
             <div className="basis-full uxsm:basis-[44.5%] xsm:basis-1/3 bg-card-bg  py-10 relative after:absolute after:content-[''] after:top-0 after:left-0 after:w-full after:h-full after:bg-card-background after:rounded-3xl after:opacity-[.1]">
               <h1 className="text-white text-4xl font-medium text-center ">
-                6
+               + 6
               </h1>
               <p className="uppercase text-[.8rem] text-card-para font-normal  tracking-normal  mx-auto text-center opacity-50 w-1/2 mt-4">
                 total projects
