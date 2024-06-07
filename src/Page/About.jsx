@@ -160,6 +160,18 @@ const About = () => {
                       WorkShop
                     </p>
                   </li>
+
+                  <li className="pt-2">
+                    <p className="text-card-para opacity-60 mb-3 ">
+                       2023 - 2024
+                    </p>
+                    <h2 className="text-lg mb-1.5 text-white opacity-90">
+                      IT technician 
+                    </h2>
+                    <p className="text-card-para opacity-70 font-normal text-sm tracking-wide">
+                    Mkas Digital Transformation Solution
+                    </p>
+                  </li>
                 </ul>
               </motion.div>
               <motion.div
