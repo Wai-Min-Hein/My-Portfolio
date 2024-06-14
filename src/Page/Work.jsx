@@ -35,7 +35,7 @@ const Work = () => {
           className=" grid grid-cols-1 md:mt-20 md:grid-cols-3 gap-3 pt-8  items-center justify-center "
         >
           <div className=" grid gap-5 col-span-1">
-            <Link to={"https://show-now.vercel.app/"} target="_blank">
+            <Link to={"https://shopnowmm.vercel.app/"} target="_blank">
               <motion.div
                 initial={{ scale: 0.7 }}
                 whileInView={{ scale: 1 }}
