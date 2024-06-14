@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import logo from '../../Img/Home/logo.svg'
-import {delay, motion} from 'framer-motion'
+import { motion} from 'framer-motion'
 
 const Navbar = () => {
   const [isopen,setIsOpen] = useState(true)
@@ -23,17 +23,7 @@ const Navbar = () => {
         })
   },[])
 
-  const item = {
-    exit:{
-      height: 0,
-      opacity: 0,
-      transition: {
-        duration: 0.5,
-        delay: 0.3,
-        ease: "easeInOut"
-      }
-    }
-  }
+ 
   return (
     
     <header className='bg-black text-base font-sans z-40'>
@@ -93,7 +83,7 @@ const Navbar = () => {
         </motion.div>
 
         <Link to={'contact'} className='text-white hidden md:block px-7 py-2 rounded-xl font-medium bg-gray-dark'>
-          Let's talk
+          {"Let's"} talk
         </Link>
       </div>
      </div>

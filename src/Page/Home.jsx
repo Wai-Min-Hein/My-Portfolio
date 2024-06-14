@@ -73,7 +73,7 @@ const Home = () => {
                
               </h1>
               <p className="text-card-para opacity-70 text-md font-normal tra tracking-wide xl:w-[90%]">
-                I'm a react developer based in Yangon
+                {"I'm"} a react developer based in Yangon
               </p>
               </div>
 
@@ -272,13 +272,11 @@ const Home = () => {
             <div className="box bg-card-bg p-4 mb-4 flex justify-center items-center gap-5 border border-dark rounded-4xl shadow">
               <a 
               href="https://github.com/Wai-Min-Hein" 
-              target='_blank' 
               className='h-16 w-16 rounded-full transition duration-500 border text-white hover:text-black hover:bg-white border-dark flex justify-center items-center shadow'>
                 <ImGithub className="text-2xl "/>
               </a>
               <a 
               href="https://www.linkedin.com/in/wai-min-hein-284aa8281/" 
-              target='_blank' 
               className='h-16 w-16 rounded-full border border-dark text-white hover:text-black hover:bg-white transition duration-500 flex justify-center items-center shadow'>
                 <ImLinkedin className="text-2xl "/>
               </a>
@@ -350,7 +348,7 @@ const Home = () => {
             </div>
             <div className="flex items-end justify-between">
               <h1 className="text-white text-[2.8rem] font-medium">
-                Let's <br /> work{" "}
+               {" Let's"} <br /> work{" "}
                 <span className="text-[#5b78f6]">together.</span>{" "}
               </h1>
               <Link to="/contact">

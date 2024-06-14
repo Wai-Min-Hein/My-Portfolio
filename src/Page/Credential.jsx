@@ -168,7 +168,7 @@ const Credential = () => {
             </p>
             <p className="text-white opacity-80 text-[1.1rem] leading-normal tracking-wide mt-2">
               I am currently a first-year computer science student pursuing a
-              Bachelor's degree in Computer University Mandalay. Although my
+              {"Bachelor's"} degree in Computer University Mandalay. Although my
               education has been impacted by the COVID-19, I have remained
               dedicated to my studies and have adapted to the challenges
               presented by remote learning.

@@ -1,13 +1,12 @@
 import { motion } from "framer-motion";
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import {ImGithub,ImLinkedin} from 'react-icons/im'
-import { BsTelephone, BsDribbble, BsInstagram } from "react-icons/bs";
+import { BsTelephone } from "react-icons/bs";
 
 import { FaFacebookF } from "react-icons/fa";
 
 import { GoLocation } from "react-icons/go";
-import { SlSocialTwitter } from "react-icons/sl";
 import Loader from "./Loader";
 
 const Contact = () => {
@@ -115,13 +114,13 @@ const Contact = () => {
             >
               <h3 className="text-lg font-normal">SOCIAL INFO</h3>
               <div className=" flex justify-center items-center gap-5 ">
-                <a href="https://www.facebook.com/waiminheinofficial" target='_blank' className='h-16 w-16 rounded-full transition duration-500 bg-card-bg text-white hover:text-black hover:bg-white flex justify-center items-center shadow'>
+                <a href="https://www.facebook.com/waiminheinofficial"  className='h-16 w-16 rounded-full transition duration-500 bg-card-bg text-white hover:text-black hover:bg-white flex justify-center items-center shadow'>
                   <FaFacebookF className="text-2xl "/>
                 </a>
-                <a href="https://github.com/Wai-Min-Hein" target='_blank' className='h-16 w-16 rounded-full transition duration-500 bg-card-bg text-white hover:text-black hover:bg-white flex justify-center items-center shadow'>
+                <a href="https://github.com/Wai-Min-Hein"  className='h-16 w-16 rounded-full transition duration-500 bg-card-bg text-white hover:text-black hover:bg-white flex justify-center items-center shadow'>
                   <ImGithub className="text-2xl "/>
                 </a>
-                <a href="https://www.linkedin.com/in/wai-min-hein-284aa8281/" target='_blank' className='h-16 w-16 rounded-full bg-card-bg text-white hover:text-black hover:bg-white transition duration-500 flex justify-center items-center shadow'>
+                <a href="https://www.linkedin.com/in/wai-min-hein-284aa8281/"  className='h-16 w-16 rounded-full bg-card-bg text-white hover:text-black hover:bg-white transition duration-500 flex justify-center items-center shadow'>
                   <ImLinkedin className="text-2xl "/>
                 </a>
               </div>
@@ -142,7 +141,7 @@ const Contact = () => {
               alt=""
             />
             <h1 className="text-4xl font-semibold text-light py-5">
-              Let's work <span className="text-primary">together.</span>
+              {"Let's"} work <span className="text-primary">together.</span>
             </h1>
             <form className="flex flex-col gap-4">
               <input

@@ -239,14 +239,12 @@ const About = () => {
                 <div className="box bg-card-bg p-4 mb-4 flex justify-center items-center gap-5 border border-dark rounded-4xl shadow">
                   <a
                     href="https://github.com/Wai-Min-Hein"
-                    target="_blank"
                     className="h-16 w-16 rounded-full transition duration-500 border text-white hover:text-black hover:bg-white border-dark flex justify-center items-center shadow"
                   >
                     <ImGithub className="text-2xl " />
                   </a>
                   <a
                     href="https://www.linkedin.com/in/wai-min-hein-284aa8281/"
-                    target="_blank"
                     className="h-16 w-16 rounded-full border border-dark text-white hover:text-black hover:bg-white transition duration-500 flex justify-center items-center shadow"
                   >
                     <ImLinkedin className="text-2xl " />
@@ -288,7 +286,7 @@ const About = () => {
                 <img src={icon2} alt="" className="absolute top-0" />
                 <div className="flex justify-between items-end">
                   <h1 className="font-medium text-white text-3xl lg:text-4xl ">
-                    Let's
+                   { "Let's"}
                     <br />
                     Work <span className="text-primary">together.</span>
                   </h1>
