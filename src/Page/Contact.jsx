@@ -76,8 +76,8 @@ const Contact = () => {
                 </div>
                 <div className="">
                   <h4 className="opacity-50 text-gray text-[0.9rem] font-semibold">CONTACT US</h4>
-                  <p className="text-[1rem] font-semibold opacity-90">+959423996881</p>
-                  <p className="text-[1rem] font-semibold opacity-90">+959785735527</p>
+                  <p className="text-[1rem] font-semibold opacity-90">09423996881</p>
+                  <p className="text-[1rem] font-semibold opacity-90">09983449705</p>
                 </div>
               </motion.div>
               <motion.div
@@ -95,8 +95,8 @@ const Contact = () => {
                 </div>
                 <div className="">
                   <h4 className="opacity-50 text-gray text-[0.9rem] font-semibold">LOCATION</h4>
-                  <p className="text-[1rem] font-semibold opacity-90">Phoe Sein Street</p>
-                  <p className="text-[1rem] font-semibold opacity-90">Tamwae</p>
+                  <p className="text-[1rem] font-semibold opacity-90">Than Street</p>
+                  <p className="text-[1rem] font-semibold opacity-90">Hlaing</p>
                   <p className="text-[1rem] font-semibold opacity-90">Yangon</p>
                 </div>
               </motion.div>
