@@ -347,7 +347,7 @@ const Work = () => {
                           Web development
                         </p>
                         <h6 className="  text-card-para font-medium text-lg">
-                          Ali Pos
+                          Mkas
                         </h6>
                       </div>
                       <span
