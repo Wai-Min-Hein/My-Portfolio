@@ -31,7 +31,8 @@ const Navbar = () => {
 
       <div className='flex justify-between items-center py-3'>
         <Link to={'/'} >
-            <img src={logo} alt="" className='z-[9999] relative' />
+            {/* <img src={logo} alt="" className='z-[9999] relative' /> */}
+            <h1 className='text-xl font-semibold'>Wai</h1>
         </Link>
         <div onClick={()=>setIsOpen(!isopen)} className="menu w-8 h-10 relative md:hidden cursor-pointer z-[9999]">
           <span className={'absolute w-full h-0.5 top-[50%] left-[50%] bg-white translate-x-[-50%] translate-y-[-13px] rounded-md transition-transform duration-300' + (!isopen &&' translate-x-[-50%] translate-y-[50%] rotate-[-45deg]')}></span>

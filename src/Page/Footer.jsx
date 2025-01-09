@@ -6,9 +6,9 @@ const Footer = () => {
     <footer className='pt-32 pb-20 bg-black'>
       <div className='container mx-auto'>
         <div className="flex justify-center items-center text-sm font-Inter flex-col">
-          <Link to={'/'}>
+          {/* <Link to={'/'}>
             <img src={logo} alt="logo svg" />
-          </Link>
+          </Link> */}
           <ul className='flex mt-8 mb-9 gap-11 font-base text-gray'>
             <li className=''>
               <NavLink to={'/'} aria-current="page" className="transition duration-300">Home</NavLink>
@@ -23,10 +23,10 @@ const Footer = () => {
               <NavLink to={'contact'} className="transition duration-300">Contact</NavLink>
             </li>
           </ul>
-          <p className='text-gray'>
+          {/* <p className='text-gray'>
           © All rights reserved by {" "}
           <span className='text-primary'> WordPressRiver</span>
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>
